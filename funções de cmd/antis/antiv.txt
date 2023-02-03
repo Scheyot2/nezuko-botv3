@@ -1,0 +1,54 @@
+Parte 1
+case 'antiviewone':
+//SaikyoXyW
+if (!isGroup) return reply(enviar.msg.grupo)
+if (!isGroupAdmins) return reply(enviar.msg.adm)
+if (!isBotGroupAdmins) return reply(enviar.msg.Badmin)
+if (args.length < 1) return reply('1 pra ligar / 0 pra desligar')
+if (Number(args[0]) === 1) {
+if (isAntiview) return reply('Ja esta ativo')
+antiview.push(from)
+fs.writeFileSync('./datab/ants/antiview.json', JSON.stringify(antiview))
+reply('🌀 Ativou com sucesso o recurso de antiviewone neste grupo 📝')
+} else if (Number(args[0]) === 0) {
+if (!isAntiview) return reply('Ja esta Desativado')
+pesquisar = from
+processo = antiview.indexOf(pesquisar)
+while(processo >= 0){
+antiview.splice(processo, 1)
+processo = antiview.indexOf(pesquisar)
+}
+fs.writeFileSync('./datab/ants/antiview.json', JSON.stringify(antiview))
+reply('‼️ Desativou com sucesso o recurso de Antiviewone neste grupo✔️')
+} else {
+reply('1 para ativar, 0 para desativar')
+}
+break
+
+_________________________________________
+
+Parte 2
+
+Antiviewone: ${isAntiview ? '✓' : '✕'}
+__________________________________________
+
+Parte 3 // linhas 2004
+
+//=============(antiviewone)============\\
+if(antiview.includes(from)) {
+if(isViewOnce){
+if (Object.keys(info.message.viewOnceMessage.message)[0] == 'imageMessage'){
+bhj = info.message.viewOnceMessage.message[Object.keys(info.message.viewOnceMessage.message)[0] ]
+buff = await getFileBuffer(bhj, 'image')
+Suzuya.sendMessage(from, {image: buff, caption:'O Antiviewone Ativo Neste Grupo' + (`caption` in bhj ? `\n\nlegenda: ${bhj?.caption}` :'')}, {quoted: info}).catch(e => {
+console.log(e);
+})
+}else if (Object.keys(info.message.viewOnceMessage.message)[0] == 'videoMessage'){
+bhj = info.message.viewOnceMessage.message[Object.keys(info.message.viewOnceMessage.message)[0] ]
+buff = await getFileBuffer(bhj, 'video')
+Suzuya.sendMessage(from, {video: buff,caption:'O Antiviewone Ativo Neste Grupo' + (`caption` in bhj ? `\n\nLegenda: ${bhj?.caption}` :'') }, {quoted: info}).catch(e => {
+console.log(e);
+})
+}}
+}
+
