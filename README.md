@@ -1,4 +1,4 @@
-<img src="https://readme-typing-svg.herokuapp.com/?font=mono&size=30&duration=4000&color=#FF00FF&center=falso&vCenter=falso&lines=𝐍𝐄𝐙𝐔𝐊𝐎-𝐁𝐎𝐓+𝐕3.5;1500 𝐂𝐎𝐌𝐀𝐍𝐃𝐎𝐒+;𝐌𝐔𝐍𝐓𝐈 -𝐃𝐄𝐕𝐈𝐂𝐄;𝕸.𝕾𝖈𝖍𝖊𝖞𝖔𝖙-𝕯𝖔𝖒𝖎𝖓𝖆✰✰✰✰✰">      
+<img src="https://readme-typing-svg.herokuapp.com/?font=mono&size=30&duration=4000&color=#FF00FF&center=falso&vCenter=falso&lines=𝐍𝐄𝐙𝐔𝐊𝐎-𝐁𝐎𝐓+𝐕3.5;1500 𝐂𝐎𝐌𝐀𝐍𝐃𝐎𝐒;𝐌𝐔𝐍𝐓𝐈 -𝐃𝐄𝐕𝐈𝐂𝐄;𝕸.𝕾𝖈𝖍𝖊𝖞𝖔𝖙-𝕯𝖔𝖒𝖎𝖓𝖆✰✰✰✰✰">      
 
 <h1 align="center">
 <p>
@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-<a href="#"><img title="BOT MULTI DEVICE" src="https://img.shields.io/badge/BOT MULTI DEVICE-blue?&style=for-the-badge"></a>
+<a href="#"><img title="✓BOT-MULTI-DEVICE✓" src="https://img.shields.io/badge/BOT MULTI DEVICE-blue?&style=for-the-badge"></a>
 </p>
 
 <p align="center">
@@ -50,6 +50,7 @@ sh qrcode.sh
 
 
 
-𝖆 𝕽𝖊𝖆𝖑𝖊𝖟𝖆™𝕯𝖔𝖒𝖎𝖓𝖆🥂
+
+<img src="https://readme-typing-svg.herokuapp.com/?font=mono&size=30&duration=4000&color=00FFFF&center=falso&vCenter=falso&lines=𝖆 𝕽𝖊𝖆𝖑𝖊𝖟𝖆™𝕯𝖔𝖒𝖎𝖓𝖆🥂 ✰✰✰✰✰">      
 ```
 
